@@ -49,6 +49,15 @@ moves = {
                     let footer = document.querySelector("footer");
                     footer.classList.add("hide");
                 }
+                else if ( (moves.actual.y - moves.initial.y) > 100){
+                    console.log("salio");
+                    
+                    //ocultar
+                    let searchbar = document.querySelector("#searchbar");
+                    searchbar.classList.remove("hide");
+                    let footer = document.querySelector("footer");
+                    footer.classList.remove("hide");
+                }
 
             }
         }

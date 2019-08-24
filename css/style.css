@@ -73,6 +73,7 @@ footer {
 footer.hide {
   bottom: -45px;
 }
+
 footer .btn {
   display: flex;
   flex-flow: column;
